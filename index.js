@@ -1,10 +1,9 @@
 "use strict";
 /**
- * @description
- checking value less than zero
+ * @description checking the value is not equal to zero
  */
 
-if (Number(prompt('Введите число')) <= 0) {
+if (Number(prompt('Введите число')) !== 0) {
     alert ('Верно');
 } else {
     alert ('Неверно');
