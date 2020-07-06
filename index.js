@@ -2,16 +2,16 @@
 
 /**
  *
- * @type {number} - a
+ * @type {number} - a, b
  */
 
 
 let a = Number(prompt('введите число a'));
 
 let b = Number(prompt('введите число b'));
-if (a <= 1 && b >= 3 ){
+if ((a > 2 && a <11) || (b >= 6 && b < 11) ){
 
-    alert ( a + b );
+    alert ('Верно');
 } else {
-    alert ( a - b);
+    alert ( 'Неверно');
 }
