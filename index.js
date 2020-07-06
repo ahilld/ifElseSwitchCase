@@ -1,17 +1,34 @@
 "use strict";
+let num = prompt('Введите значение переменой')
+switch ( num ) {
+    case '1': {
+        let result = 'Зима';
+        alert(result);
+    }
+    break
 
-/**
- *
- * @type {number} - a, b
- */
+    case '2': {
+        let result = 'Весна';
+        alert(result);
+    }
+    break
 
+    case '3': {
+        let result = 'Лето';
+        alert(result);
+    }
+        break
 
-let a = Number(prompt('введите число a'));
+    case '4': {
+        let result = 'Осень';
+        alert(result);
+    }
+        break
 
-let b = Number(prompt('введите число b'));
-if ((a > 2 && a <11) || (b >= 6 && b < 11) ){
+    default: {
+        let result = "На нашей планете всего 4 времени года";
+        alert(result);
+    }
 
-    alert ('Верно');
-} else {
-    alert ( 'Неверно');
 }
+
