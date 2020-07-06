@@ -6,9 +6,10 @@
  */
 
 
-const a = Number(prompt('введите число'));
-if (a > 0 && a < 5)
-    alert ('Верно');
+let a = Number(prompt('введите число'));
+if (a === 0 || a === 2 ){
+
+    alert ( a += 7);
 } else {
-    alert ('Неверно');
+    alert ( a /= 10);
 }
