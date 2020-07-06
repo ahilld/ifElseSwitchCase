@@ -1,9 +1,13 @@
 "use strict";
+
 /**
- * @description string data type comparison
+ *
+ * @type {number} - a
  */
 
-if (prompt('введите число') === '1') {
+
+const a = Number(prompt('введите число'));
+if (a > 0 && a < 5)
     alert ('Верно');
 } else {
     alert ('Неверно');
