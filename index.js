@@ -1,9 +1,9 @@
 "use strict";
 /**
- * @description checking the value is not equal to zero
+ * @description string data type comparison
  */
 
-if (Number(prompt('Введите число')) !== 0) {
+if (prompt('Введите слово') === 'test') {
     alert ('Верно');
 } else {
     alert ('Неверно');
