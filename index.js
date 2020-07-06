@@ -6,10 +6,12 @@
  */
 
 
-let a = Number(prompt('введите число'));
-if (a === 0 || a === 2 ){
+let a = Number(prompt('введите число a'));
 
-    alert ( a += 7);
+let b = Number(prompt('введите число b'));
+if (a <= 1 && b >= 3 ){
+
+    alert ( a + b );
 } else {
-    alert ( a /= 10);
+    alert ( a - b);
 }
